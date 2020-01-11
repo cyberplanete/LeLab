@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace formationXamarin.Views
 {
-    public partial class TabPage : TabbedPage
+    public partial class TabsPage : TabbedPage
     {
-        public TabPage()
+        public TabsPage()
         {
             InitializeComponent();
         }
