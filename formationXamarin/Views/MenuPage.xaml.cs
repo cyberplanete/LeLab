@@ -11,5 +11,10 @@ namespace formationXamarin.Views
         {
             InitializeComponent();
         }
+
+        void CounterButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new CountPage());
+        }
     }
 }

@@ -11,5 +11,12 @@ namespace formationXamarin.Views
         {
             InitializeComponent();
         }
+        private int number;
+        void CountButton_Clicked(object sender, System.EventArgs e)
+        {
+            number += 1;
+            countLabel.Text = number.ToString();
+            Console.WriteLine("Bouton cliqué");
+        }
     }
 }
