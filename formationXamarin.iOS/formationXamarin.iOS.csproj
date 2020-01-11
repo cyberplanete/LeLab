@@ -78,25 +78,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
@@ -114,6 +99,20 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120x120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180x180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76x76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152x152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167x167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120x120-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180x180-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024x1024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120x120-2.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\hd47.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\hd55.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\retina4.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\2x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -130,11 +129,14 @@
   <ItemGroup>
     <BundleResource Include="Resources\lab_logo.png" />
     <BundleResource Include="Resources\lab_separator.png" />
-    <BundleResource Include="lab_logo.png" />
-    <BundleResource Include="lab_separator.png" />
-    <BundleResource Include="HelveticaNeue-Thin.ttf">
+    <BundleResource Include="Resources\lab_avion.png" />
+    <BundleResource Include="Resources\lab_voiture.png" />
+    <BundleResource Include="Resources\HelveticaNeue-Thin.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
+    <BundleResource Include="Resources\lab_icon_avion%403x.png" />
+    <BundleResource Include="Resources\lab_icon_compteur%403x.png" />
+    <BundleResource Include="Resources\lab_icon_voiture%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\formationXamarin\formationXamarin.projitems" Label="Shared" />

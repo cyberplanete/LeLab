@@ -90,6 +90,19 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\lab_logo.png" />
     <AndroidResource Include="Resources\drawable\lab_separator.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\lab_avion.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\lab_voiture.png" />
+    <AndroidResource Include="Resources\drawable\lab_icon_avion.png" />
+    <AndroidResource Include="Resources\drawable\lab_icon_compteur.png" />
+    <AndroidResource Include="Resources\drawable\lab_icon_voiture.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\splash.9.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -97,6 +110,9 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\HelveticaNeue-Thin.ttf" />
   </ItemGroup>
   <Import Project="..\formationXamarin\formationXamarin.projitems" Label="Shared" />
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -4,12 +4,24 @@
         <StackLayout Spacing="0" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <StackLayout BackgroundColor="#518faa" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Image Margin="0,35,0,0" Source="lab_logo" HeightRequest="100" />
-                <Label Margin="0,20,0,20" Text="LeLab" TextColor="Black" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="30" />
+                <Label Margin="0,20,0,20" Text="LeLab" TextColor="Black" HorizontalTextAlignment="Center" FontSize="30">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <OnPlatform.iOS>HelveticaNeue-Thin</OnPlatform.iOS>
+                            <OnPlatform.Android>HelveticaNeue-Thin.ttf#HelveticaNeue-Thin</OnPlatform.Android>
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
             </StackLayout>
-            <Image Source="lab_separator" Aspect="AspectFill"/>
+            <Image Source="lab_separator" Aspect="AspectFill" />
             <StackLayout Margin="30,30" BackgroundColor="Lime">
                 <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="COMPTEUR" TextColor="Black" Clicked="CounterButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="TABS" TextColor="Black" Clicked="TabButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#c60e3c" Text="LISTE" TextColor="Black" Clicked="ListeButton_Clicked" HorizontalOptions="FillAndExpand" />
+
             </StackLayout>
+            
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

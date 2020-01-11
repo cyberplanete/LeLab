@@ -16,5 +16,15 @@ namespace formationXamarin.Views
         {
             this.Navigation.PushAsync(new CountPage());
         }
+
+        void TabButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new TabsPage());
+        }
+
+        void ListeButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new ListPage());
+        }
     }
 }

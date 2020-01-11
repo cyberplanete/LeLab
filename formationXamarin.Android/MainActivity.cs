@@ -6,10 +6,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V7.App;
 
 namespace formationXamarin.Droid
 {
-    [Activity(Label = "formationXamarin", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity( Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -30,4 +31,15 @@ namespace formationXamarin.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
+    //Voir note Onenote concernant noHistory , En somme un back serait possible sur le splashscreen si noHistory etait à false
+    [Activity(Icon = "@drawable/icon", Theme = "@style/splashscreen", MainLauncher = true, NoHistory = true)]
+    public class SplashActivity : AppCompatActivity
+    {
+        protected override void OnResume()
+        {
+            base.OnResume();
+            StartActivity(typeof(MainActivity));
+        }
+    }
+
 }
