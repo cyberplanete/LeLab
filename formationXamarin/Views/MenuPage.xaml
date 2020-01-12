@@ -18,6 +18,7 @@
                 <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="COMPTEUR" TextColor="Black" Clicked="CounterButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="TABS" TextColor="Black" Clicked="TabButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#c60e3c" Text="LISTE" TextColor="Black" Clicked="ListeButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="NOMBRE MAGIQUE" TextColor="Black" Clicked="MagiqueButton_Clicked" HorizontalOptions="FillAndExpand" />
 
             </StackLayout>
             
