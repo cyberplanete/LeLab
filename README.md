@@ -1,1 +1,1 @@
-formationXamarin
+Exercice pour la formation Xamarin
