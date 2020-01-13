@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             BackgroundColor="{StaticResource ContentPageNombreMagique}" 
+             Title="Le nombre magique"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maVueEtoile = "clr-namespace:formationXamarin.Views.NombreMagique"
+             x:Class="formationXamarin.Views.GamePage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                 <RowDefinition Height="*"/>
+                 <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>       
+            
+            <maVueEtoile:StarsView />
+            <BoxView Grid.Row="2" HeightRequest="120" 
+                     Rotation="-10" Margin="-20,0,-15,-30" 
+                     BackgroundColor="{StaticResource shadowColor}" />
+            <StackLayout Grid.Row="1" VerticalOptions="Center" >
+            <Label
+                Text="Deviner le nombre magique" 
+                FontSize="30" 
+                HorizontalTextAlignment="Center"/> 
+                <Label  x:Name="entreMagicNumber" 
+                    Text="Entre X et Y" 
+                    HorizontalTextAlignment="Center"/>  
+                <Entry HeightRequest="100" 
+                       FontSize="50"
+                       Margin="70,10"
+                       x:Name="numberEntry"
+                       PlaceholderColor="White"
+                       Keyboard="Numeric" 
+                       Placeholder="?" 
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="{StaticResource shadowColor}"/> 
+                <Button  
+                    Text="Deviner" 
+                    Margin="90,10,90,20"
+                    TextColor= "{StaticResource titleColor}" 
+                    BackgroundColor="{StaticResource shadowColor}" 
+                    Clicked="Deviner_Clicked"/>
+            </StackLayout>  
+            
+            <StackLayout Grid.Row="2">
+               
+            </StackLayout>
+            
+           
+        </Grid>
+        
+  
+        
+    </ContentPage.Content>
+</ContentPage>

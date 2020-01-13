@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using formationXamarin.Views.NombreMagique;
 using Xamarin.Forms;
 
 namespace formationXamarin.Views
@@ -16,6 +16,7 @@ namespace formationXamarin.Views
             InitializeComponent();
             entreMagicNumber.Text = "Entre " + NB_MIN + " et" + NB_MAX;
             magicNumber = new Random().Next(NB_MIN, NB_MAX);
+            NavigationPage.SetHasNavigationBar(this, false);
 
         }
 
@@ -46,7 +47,7 @@ namespace formationXamarin.Views
             {
                 if (valeur.Equals(magicNumber))
                 {
-                    DisplayAlert("Bravo", "Vous avez gagné", "OK");
+                    TaskGagne();
                 }
                 else if (valeur < magicNumber)
                 {
@@ -61,6 +62,11 @@ namespace formationXamarin.Views
 
            
           
+        }
+
+        private async void TaskGagne()
+        {
+            await this.Navigation.PushAsync(new WinPage(magicNumber));
         }
     }
 }

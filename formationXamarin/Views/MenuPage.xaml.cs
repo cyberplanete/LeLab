@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using formationXamarin.Views.NombreMagique;
 using Xamarin.Forms;
 
 namespace formationXamarin.Views
@@ -29,7 +29,7 @@ namespace formationXamarin.Views
 
         void MagiqueButton_Clicked(object sender, System.EventArgs e)
         {
-            this.Navigation.PushAsync(new GamePage());
+            this.Navigation.PushAsync(new NavigationPage(new WelcomePage()));
         }
     }
 }

@@ -14,6 +14,12 @@
                 <Setter Property="BackgroundColor" Value="#518faa" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
+            
+    <Color x:Key="NavigationPageNombreMagique">#f4c723</Color>
+    <Color x:Key="ContentPageNombreMagique">#f4c723</Color>        
+    <Color x:Key="titleColor">#60593b</Color>
+    <Color x:Key="shadowColor">#dcb51a</Color>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

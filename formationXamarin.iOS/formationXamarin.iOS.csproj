@@ -137,6 +137,8 @@
     <BundleResource Include="Resources\lab_icon_avion%403x.png" />
     <BundleResource Include="Resources\lab_icon_compteur%403x.png" />
     <BundleResource Include="Resources\lab_icon_voiture%403x.png" />
+    <BundleResource Include="Resources\star.png" />
+    <BundleResource Include="Resources\win.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\formationXamarin\formationXamarin.projitems" Label="Shared" />

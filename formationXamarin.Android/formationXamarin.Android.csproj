@@ -104,6 +104,8 @@
     <AndroidResource Include="Resources\drawable-xhdpi\splash.9.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\splash.9.png" />
+    <AndroidResource Include="Resources\drawable\star.png" />
+    <AndroidResource Include="Resources\drawable\win.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

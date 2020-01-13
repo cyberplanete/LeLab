@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             BackgroundColor="{StaticResource ContentPageNombreMagique}" 
+             x:Class="formationXamarin.Views.NombreMagique.WelcomePage"
+             xmlns:maVueEtoile = "clr-namespace:formationXamarin.Views.NombreMagique"
+             Title="Menu">
+    <ContentPage.Content>
+        
+        
+        
+        <StackLayout Spacing="0" Padding="0">
+            <maVueEtoile:StarsView/>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center">
+            <Frame BackgroundColor="Transparent" HasShadow="false" VerticalOptions="FillAndExpand" >
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Le nombre magique" 
+                           TextColor="Black" 
+                           FontSize="50" 
+                           HorizontalTextAlignment="Center" />
+                    <Button x:Name="bouton" 
+                            TextColor="White" 
+                            Text="Jouer" 
+                            BackgroundColor="{StaticResource shadowColor}" 
+                            Margin="90,20,90,0" Clicked="ButtonJouer_Clicked" />
+                </StackLayout>
+            </Frame> 
+        </StackLayout>
+            <BoxView HeightRequest="120" 
+                     Rotation="-10" Margin="-20,0,-10,-30" 
+                     BackgroundColor="{StaticResource shadowColor}" />
+      
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
