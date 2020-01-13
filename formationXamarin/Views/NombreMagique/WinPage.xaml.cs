@@ -11,7 +11,7 @@ namespace formationXamarin.Views.NombreMagique
         public WinPage():this(5)
             {
 
-            }
+            } 
 
         public WinPage(int magicNumber)
         {
