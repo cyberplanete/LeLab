@@ -22,6 +22,9 @@
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="TABS" TextColor="Black" Clicked="TabButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#c60e3c" Text="LISTE" TextColor="Black" Clicked="ListeButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="NOMBRE MAGIQUE" TextColor="Black" Clicked="MagiqueButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="FLEXLAYOUTSTACK " TextColor="Black" Clicked="FlexLayoutButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="FLEXLAYOUTGROW " TextColor="Black" Clicked="FlexLayoutGrowButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="FLEXLAYOUTWRAP " TextColor="Black" Clicked="FlexLayoutWrapButton_Clicked" HorizontalOptions="FillAndExpand" />
 
             </StackLayout>
             

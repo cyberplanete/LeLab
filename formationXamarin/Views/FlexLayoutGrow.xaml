@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="formationXamarin.Views.FlexLayoutGrow">
+    <ContentPage.Content>
+
+        <FlexLayout Direction="Column">
+
+            <!--<FlexLayout Direction="Column"
+                        AlignItems="Center"
+                        FlexLayout.Grow="1">
+                <BoxView Margin="1" FlexLayout.Grow="1" BackgroundColor="Transparent"/>
+                <BoxView Margin="20,0" FlexLayout.Grow="1" BackgroundColor="BlueViolet"
+                         FlexLayout.AlignSelf="Stretch" />
+                <Label Text="Mon Texte" FlexLayout.Grow="0.10"/>
+                <BoxView Margin="1" FlexLayout.Grow="1" BackgroundColor="Transparent"/>
+
+            </FlexLayout>-->
+
+            <!-- Autre methode-->
+
+            <FlexLayout Direction="Column"
+                        AlignItems="Center"
+                        FlexLayout.Grow="1"
+                        JustifyContent="Center">
+                
+                <BoxView Margin="20,0"
+                         FlexLayout.Basis="50%"
+                         BackgroundColor="BlueViolet"
+                         FlexLayout.AlignSelf="Stretch" />
+                <Label Text="Mon Texte" Margin="0,10"/>
+                
+
+            </FlexLayout>
+
+            <FlexLayout BackgroundColor="Green" FlexLayout.Basis="70">
+                <BoxView Margin="1" BackgroundColor="AliceBlue" FlexLayout.Grow="1"/>
+                <BoxView Margin="1" BackgroundColor="Yellow" FlexLayout.Grow="1"/>
+                <BoxView Margin="1" BackgroundColor="Black" FlexLayout.Grow="1"/>
+            </FlexLayout>
+
+
+        </FlexLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

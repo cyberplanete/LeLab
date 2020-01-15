@@ -51,6 +51,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FlexLayoutStack.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FlexLayoutGrow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FlexLayoutWrap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FlexLayoutWrapAuto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -90,6 +106,18 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\NombreMagique\WinPage.xaml.cs">
       <DependentUpon>WinPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FlexLayoutStack.xaml.cs">
+      <DependentUpon>FlexLayoutStack.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FlexLayoutGrow.xaml.cs">
+      <DependentUpon>FlexLayoutGrow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FlexLayoutWrap.xaml.cs">
+      <DependentUpon>FlexLayoutWrap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FlexLayoutWrapAuto.xaml.cs">
+      <DependentUpon>FlexLayoutWrapAuto.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

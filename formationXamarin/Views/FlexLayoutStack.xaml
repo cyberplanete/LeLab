@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="formationXamarin.Views.FlexLayoutStack">
+    <ContentPage.Content>
+
+        <!-- JustiyContent et AlignItems -->
+        <FlexLayout x:Name="myFlexLayout" BackgroundColor="#f0f0F0"
+                    JustifyContent= "Start"
+                    Direction="Row"
+                    AlignItems="Center"
+                    >
+                    
+            <Label Text="Label1" BackgroundColor="Blue"/>
+            <Label FlexLayout.Order="-1" Text="Label2" BackgroundColor="Yellow"/>
+            <Button x:Name="myButton" Text="Clique ici" />
+
+            <!-- Tous les elements ont la propriete order à 0 par defaut. -->
+            <StackLayout  FlexLayout.AlignSelf="Center">
+                <Label Text="Label1" />
+            <Label  Text="Label2" />
+                 <Label Text="Label3" />
+                 <Label  Text="Label4" />
+            
+                </StackLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
