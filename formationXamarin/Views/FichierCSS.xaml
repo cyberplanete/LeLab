@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="formationXamarin.Views.FichierCSS">
+    <ContentPage.Resources>
+  <StyleSheetExtension Source="mesStyles.css"/>
+        <Style x:Name="maboite" TargetType="BoxView">
+            <Setter Property="BackgroundColor" Value="#0000FF"/>
+            <Setter Property="WidthRequest" Value="50"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
+                <FlexLayout AlignItems="Center" Direction="Column">
+                    <BoxView/>
+                    <BoxView/>
+                    <BoxView StyleClass="styleboite2"/>
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

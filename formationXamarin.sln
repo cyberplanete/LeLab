@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formationXamarin.iOS", "for
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "formationXamarin", "formationXamarin\formationXamarin.shproj", "{FB65AE1A-17DE-428C-8711-9BC7A4FBDCBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F6804B0-63AA-47B5-81FA-C5CF00EF28BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -67,6 +67,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\FichierCSS.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\mesStyles.css" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Nouveautes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -118,6 +127,12 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\FlexLayoutWrapAuto.xaml.cs">
       <DependentUpon>FlexLayoutWrapAuto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\FichierCSS.xaml.cs">
+      <DependentUpon>FichierCSS.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Nouveautes.xaml.cs">
+      <DependentUpon>Nouveautes.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

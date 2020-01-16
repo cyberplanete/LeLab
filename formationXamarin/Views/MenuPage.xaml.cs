@@ -46,5 +46,14 @@ namespace formationXamarin.Views
         {
             this.Navigation.PushAsync(new NavigationPage(new FlexLayoutWrap()));
         }
+
+        void FlexLayoutWrapAutoButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new NavigationPage(new FlexLayoutWrapAuto()));
+        }
+        void CSSButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new NavigationPage(new FichierCSS()));
+        }
     }
 }

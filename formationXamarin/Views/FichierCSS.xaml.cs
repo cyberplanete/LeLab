@@ -3,16 +3,13 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-
 namespace formationXamarin.Views
 {
-    public partial class FlexLayoutWrap : ContentPage
+    public partial class FichierCSS : ContentPage
     {
-        public FlexLayoutWrap()
+        public FichierCSS()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
-            
         }
     }
 }
