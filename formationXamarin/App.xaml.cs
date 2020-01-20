@@ -11,8 +11,9 @@ namespace formationXamarin
         {
             InitializeComponent();
 
+
             MainPage = new NavigationPage(new MenuPage());
-           
+
         }
 
         protected override void OnStart()

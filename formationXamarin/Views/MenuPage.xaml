@@ -28,6 +28,7 @@
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="FLEXLAYOUTWRAP " TextColor="Black" Clicked="FlexLayoutWrapButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="FLEXLAYOUTWRAPAUTO" TextColor="Black" Clicked="FlexLayoutWrapAutoButton_Clicked" HorizontalOptions="FillAndExpand" />
                             <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="STYLECSS" TextColor="Black" Clicked="CSSButton_Clicked" HorizontalOptions="FillAndExpand" />
+                            <Button Style="{StaticResource boutonLabStyle}" BackgroundColor="#C1AB24" Text="NOUVEAUTES" TextColor="Black" Clicked="NouveautesButton_Clicked" HorizontalOptions="FillAndExpand" />
 
             </StackLayout>
            

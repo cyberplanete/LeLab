@@ -3,6 +3,10 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             xmlns:mesVues="clr-namespace:formationXamarin.Views"
             Title="TabsPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"        
+android:TabbedPage.ToolbarPlacement="Bottom"
+android:TabbedPage.BarItemColor="Black"
+android:TabbedPage.BarSelectedItemColor="White"
             x:Class="formationXamarin.Views.TabsPage">
            <TabbedPage.BarBackgroundColor>
     <OnPlatform x:TypeArguments="Color">

@@ -55,5 +55,10 @@ namespace formationXamarin.Views
         {
             this.Navigation.PushAsync(new NavigationPage(new FichierCSS()));
         }
+
+        void NouveautesButton_Clicked(object sender, System.EventArgs e)
+        {
+            this.Navigation.PushAsync(new NavigationPage(new Forms_3_5()));
+        }
     }
 }
